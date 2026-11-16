@@ -1,0 +1,17 @@
+    // 1. EIGENE VARIABLEN (OPTIONAL)
+    // Hier kannst du Bootstrap-Farben überschreiben, BEVOR sie geladen werden.
+    $primary: #33adff; // Beispiel: Ein schönes Orange statt Blau
+    $border-radius: 0.5rem; // Beispiel: Alle Ecken etwas runder
+
+    // 2. BOOTSTRAP IMPORTIEREN
+    // Dieser Pfad muss zu deinem node_modules Ordner führen.
+    // Meistens liegt dein scss-Ordner parallel zu node_modules, 
+    // daher gehen wir mit ../ einen Schritt raus.
+    @import "../node_modules/bootstrap/scss/bootstrap";
+
+    // 3. DEIN EIGENER ZUSÄTZLICHER CODE
+    // Hier schreibst du alles rein, was nicht über Bootstrap-Variablen geht.
+    body {
+        background-color: #f4f4f4;
+        padding-top: 50px;
+    }

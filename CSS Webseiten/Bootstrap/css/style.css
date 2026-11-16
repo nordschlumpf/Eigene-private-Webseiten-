@@ -1,0 +1,7 @@
+    /* In deiner style.css */
+    .form-label {
+        display: block;      /* Sorgt dafür, dass das Label eine eigene Zeile einnimmt */
+        text-align: left;    /* Erzwingt die Linksbündigkeit */
+        width: 100%;         /* Nutzt die volle Breite des Containers */
+        margin-bottom: 0.5rem; 
+    }
